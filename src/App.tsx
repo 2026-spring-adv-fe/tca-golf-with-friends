@@ -18,7 +18,7 @@ const [count, setCount] = useState(0)
       </div>
       <h1 className="text-3xl underline font-bold">Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)} className='btn btn-outline w-32 btn-primary my-5 mx-5'>
+        <button onClick={() => setCount((count) => count + 1)} className='btn btn-lg btn-outline w-full lg:w-64 btn-primary my-5'>
           count is {count}
         </button>
         <p>
