@@ -36,7 +36,7 @@ function App() {
                 Click on the Vite and React logos to learn more
             </p>
 
-            <div className="card bg-base-100 w-full shadow-lg">
+            <div className="card bg-base-100 w-full shadow-lg my-5">
                 <div className="card-body p-2">
                     <h2 className="card-title">Leaderboard</h2>
                     <p>
@@ -45,7 +45,7 @@ function App() {
                     </p>
                 </div>
             </div>
-            <div className="card bg-base-100 w-full shadow-lg">
+            <div className="card bg-base-100 w-full shadow-lg my-5">
                 <div className="card-body p-2">
                     <h2 className="card-title">Leaderboard</h2>
                     <p>
@@ -54,7 +54,7 @@ function App() {
                     </p>
                 </div>
             </div>
-            <div className="card bg-base-100 w-full shadow-lg">
+            <div className="card bg-base-100 w-full shadow-lg my-5">
                 <div className="card-body p-2">
                     <h2 className="card-title">Leaderboard</h2>
                     <p>
@@ -63,7 +63,7 @@ function App() {
                     </p>
                 </div>
             </div>
-            <div className="card bg-base-100 w-full shadow-lg">
+            <div className="card bg-base-100 w-full shadow-lg my-5">
                 <div className="card-body p-2">
                     <h2 className="card-title">Leaderboard</h2>
                     <p>
@@ -72,7 +72,7 @@ function App() {
                     </p>
                 </div>
             </div>
-            <div className="card bg-base-100 w-full shadow-lg">
+            <div className="card bg-base-100 w-full shadow-lg my-5">
                 <div className="card-body p-2">
                     <h2 className="card-title">Leaderboard</h2>
                     <p>
@@ -81,7 +81,7 @@ function App() {
                     </p>
                 </div>
             </div>
-            <div className="card bg-base-100 w-full shadow-lg">
+            <div className="card bg-base-100 w-full shadow-lg my-5">
                 <div className="card-body p-2">
                     <h2 className="card-title">Leaderboard</h2>
                     <p>
@@ -90,7 +90,7 @@ function App() {
                     </p>
                 </div>
             </div>
-            <div className="card bg-base-100 w-full shadow-lg">
+            <div className="card bg-base-100 w-full shadow-lg my-5">
                 <div className="card-body p-2">
                     <h2 className="card-title">Leaderboard</h2>
                     <p>
