@@ -19,6 +19,10 @@ const Play: React.FC<PlayProps> = ({ addNewGameResult }) => {
           addNewGameResult({
             winner: "Snape",
             players: ["Snape", "Dumbledore"],
+            strokes: {
+              Snape: [4, 5, 3],
+              Dumbledore: [6, 7, 5],
+            },
             start: startTimeStamp,
             end: new Date().toISOString(),
           });
