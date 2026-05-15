@@ -1,7 +1,22 @@
 import "./App.css";
+import { HashRouter, Routes, Route } from "react-router";
+
+import Home from "./Home.tsx";
+import Setup from "./Setup.tsx";
+import Play from "./Play.tsx";
 
 const App = () => {
-  return <div>Cleared everything out</div>;
+  return (
+    <div>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/setup" element={<Setup />} />
+          <Route path="/play" element={<Play />} />
+        </Routes>
+      </HashRouter>
+    </div>
+  );
 };
 
 export default App;
