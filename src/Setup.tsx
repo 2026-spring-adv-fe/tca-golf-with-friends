@@ -1,8 +1,18 @@
+import { useNavigate } from "react-router";
+
 const Setup = () => {
+  const nav = useNavigate();
+
   return (
-    <div>
+    <>
       <h1>Setup</h1>
-    </div>
+      <button
+        className="btn btn-primary btn-outline"
+        onClick={() => nav("/play")}
+      >
+        Start the Game
+      </button>
+    </>
   );
 };
 
