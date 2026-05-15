@@ -1,8 +1,15 @@
+import { useNavigate } from "react-router";
+
 const Play = () => {
+  const nav = useNavigate();
+
   return (
-    <div>
+    <>
       <h1>Play</h1>
-    </div>
+      <button className="btn btn-primary btn-outline" onClick={() => nav(-2)}>
+        Game Over
+      </button>
+    </>
   );
 };
 
